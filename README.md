@@ -14,7 +14,7 @@ O propósito desta atividade foi aplicar conceitos de testes funcionais em uma A
 Para a realização dos testes, foi criado um projeto no Supabase. A autenticação por e-mail foi habilitada e a confirmação de e-mail foi desativada para facilitar o fluxo. Um usuário de teste foi cadastrado manualmente no painel. As credenciais de acesso (URL do projeto e chave pública) foram extraídas para configurar o Postman.
 
 *Evidências:*
-![Painel do Supabase](COLE_O_LINK_DO_PRINT_SUPABASE_AQUI)
+![Painel do Supabase](https://github.com/arthurzinholivera-eng/atividade-caixa-cinza/blob/main/Caixa-cinza-Arthur%20Oliveira/Prints/User%20Arthur.png?raw=true)
 
 # Configuração do Postman
 
@@ -28,7 +28,7 @@ Foi configurado um Workspace e um Environment no Postman. O Environment contém 
 A requisição foi montada utilizando o método HTTP POST no endpoint `/auth/v1/token?grant_type=password`. Os headers utilizados foram `apikey` (para autorizar a chamada) e `Content-Type: application/json`. O Body foi preenchido com um objeto JSON contendo as variáveis de e-mail e senha. O objetivo é receber um token de acesso válido.
 
 *Evidências:*
-![Configuração da Requisição](COLE_O_LINK_DO_PRINT_REQUISICAO_AQUI)
+![Configuração da Requisição](https://github.com/arthurzinholivera-eng/atividade-caixa-cinza/blob/main/Caixa-cinza-Arthur%20Oliveira/Prints/requisito%20-%20arthur.png?raw=true)
 
 # Execução dos Testes
 
@@ -47,19 +47,21 @@ Foram executados os cinco cenários de teste obrigatórios. As validações fora
 *Evidências:*
 
 **Login com dados válidos:**
-![Teste Sucesso](COLE_O_LINK_DO_PRINT_SUCESSO_AQUI)
+![Teste Sucesso](https://github.com/arthurzinholivera-eng/atividade-caixa-cinza/blob/main/Caixa-cinza-Arthur%20Oliveira/Prints/login%20v%C3%A1lido%20-%20arthur.png?raw=true)
+
+![Teste Sucesso](https://github.com/arthurzinholivera-eng/atividade-caixa-cinza/blob/main/Caixa-cinza-Arthur%20Oliveira/Prints/login%20v%C3%A1lido%202%20-%20arthur.png?raw=true)
 
 **Tentativa com senha errada:**
-![Teste Senha Errada](COLE_O_LINK_DO_PRINT_SENHA_ERRADA_AQUI)
+![Teste Senha Errada](https://github.com/arthurzinholivera-eng/atividade-caixa-cinza/blob/main/Caixa-cinza-Arthur%20Oliveira/Prints/Senha%20incorreta%20-%20arthur.png?raw=true)
 
 **Tentativa com usuário falso:**
-![Teste Usuário Falso](COLE_O_LINK_DO_PRINT_USUARIO_FALSO_AQUI)
+![Teste Usuário Inexistente](https://github.com/arthurzinholivera-eng/atividade-caixa-cinza/blob/main/Caixa-cinza-Arthur%20Oliveira/Prints/usu%C3%A1rio%20n%C3%A3o%20existente%20-arthur.png?raw=true)
 
 **Envio de campos em branco:**
-![Teste Campos Vazios](COLE_O_LINK_DO_PRINT_CAMPOS_VAZIOS_AQUI)
+![Teste Campos Vazios](https://github.com/arthurzinholivera-eng/atividade-caixa-cinza/blob/main/Caixa-cinza-Arthur%20Oliveira/Prints/dados%20vazios%20-%20arthur.png?raw=true)
 
 **Formato de e-mail inválido:**
-![Teste Formato Inválido](COLE_O_LINK_DO_PRINT_FORMATO_INVALIDO_AQUI)
+![Teste Formato Inválido](https://github.com/arthurzinholivera-eng/atividade-caixa-cinza/blob/main/Caixa-cinza-Arthur%20Oliveira/Prints/formato%20inv%C3%A1lido%20-%20arthur.png?raw=true)
 
 # Registro dos Testes
 
