@@ -13,9 +13,14 @@ O propósito desta atividade foi aplicar conceitos de testes funcionais em uma A
 
 Para a realização dos testes, foi criado um projeto no Supabase. A autenticação por e-mail foi habilitada e a confirmação de e-mail foi desativada para facilitar o fluxo. Um usuário de teste foi cadastrado manualmente no painel. As credenciais de acesso (URL do projeto e chave pública) foram extraídas para configurar o Postman.
 
-*Evidências:*
-<img width="1565" height="652" alt="image" src="https://github.com/user-attachments/assets/e63e347f-7001-4d13-b7b0-332f22b1f90c" />
+*Evidências:* 
 
+
+# Configuração do Postman
+
+- **Workspace:** Foi configurado um Workspace exclusivo para a atividade de testes de API.
+- **Environment:** Foi criado o ambiente `Env Supabase` contendo as variáveis: `url_api`, `chave_api`, `email_usuario` e `senha_usuario`. O uso dessas variáveis é uma boa prática, pois permite rodar os testes dinamicamente, sem a necessidade de digitar os dados de login manualmente a cada requisição.
+- Os arquivos exportados da Collection e do Environment estão disponíveis na pasta `/postman` para consulta.
 
 # Configuração das Requisições
 
