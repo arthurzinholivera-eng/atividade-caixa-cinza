@@ -16,10 +16,6 @@ Para a realização dos testes, foi criado um projeto no Supabase. A autenticaç
 *Evidências:*
 ![Painel do Supabase](https://github.com/arthurzinholivera-eng/atividade-caixa-cinza/blob/main/Caixa-cinza-Arthur%20Oliveira/Prints/User%20Arthur.png?raw=true)
 
-# Configuração do Postman
-
-Foi configurado um Workspace e um Environment no Postman. O Environment contém quatro variáveis: `url_api`, `chave_api`, `email_usuario` e `senha_usuario`. A criação destas variáveis é importante para manter o código limpo e não expor os dados de login diretamente no corpo da requisição.
-
 *Evidências:*
 ![Configuração do Environment](COLE_O_LINK_DO_PRINT_ENVIRONMENT_AQUI)
 
@@ -68,7 +64,7 @@ Foram executados os cinco cenários de teste obrigatórios. As validações fora
 Os resultados dos testes foram documentados numa tabela no Excel. Nela, constam os códigos de cada caso de teste (CT-01 a CT-05), os dados utilizados em cada tentativa, os retornos esperados e obtidos, e as notas do analista. Documentar é muito importante para que a equipe de desenvolvimento saiba como a API se comporta.
 
 *Evidências:*
-[Baixar Planilha de Testes](COLE_O_LINK_DA_PLANILHA_XLSX_AQUI)
+<img width="1387" height="147" alt="image" src="https://github.com/user-attachments/assets/97843c81-1cb3-4078-b750-8817a85bfc09" />
 
 # Resultados Obtidos
 
