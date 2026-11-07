@@ -14,7 +14,7 @@ O propósito desta atividade foi aplicar conceitos de testes funcionais em uma A
 Para a realização dos testes, foi criado um projeto no Supabase. A autenticação por e-mail foi habilitada e a confirmação de e-mail foi desativada para facilitar o fluxo. Um usuário de teste foi cadastrado manualmente no painel. As credenciais de acesso (URL do projeto e chave pública) foram extraídas para configurar o Postman.
 
 *Evidências:* 
-
+![User](https://github.com/arthurzinholivera-eng/atividade-caixa-cinza/blob/main/Caixa-cinza-Arthur%20Oliveira/Prints/User%20Arthur.png?raw=true)
 
 # Configuração do Postman
 
